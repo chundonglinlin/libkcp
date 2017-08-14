@@ -49,3 +49,6 @@ compile and run libkcp(Best with CLion), and watch output.
    
 ## ***Troubleshooting***
 1. C++11 is required for compiling.
+
+## ***说明***
+1. UdpSession集成Fec/socket调用ikcp两部分功能,模块化后需独立两部分;
