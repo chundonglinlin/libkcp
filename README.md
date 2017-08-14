@@ -39,6 +39,9 @@ start echo server(golang)
 $go get github.com/xtaci/kcp-go
 $go run kcpserver.go
 ```   
+```
+$ g++ fec_test.cpp galois.cpp galois_table.c fec.cpp  matrix.cpp galois_noasm.cpp inversion_tree.cpp reedsolomon.cpp -std=c++11 -o fec_test
+```
 compile and run libkcp(Best with CLion), and watch output.      
 
 ## ***Caveats***
